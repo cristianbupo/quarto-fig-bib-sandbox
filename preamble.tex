@@ -31,7 +31,58 @@
 \usepackage[bitstream-charter]{mathdesign}
 \usepackage[left]{lineno}
 
-\input{header.tex}
+% -------------------------
+% Shared header: colors + listings + conditional lanes + optional dark mode
+% -------------------------
+
+\usepackage{listings}
+\usepackage{cite}
+
+% --- Palette ---
+\definecolor{bg}{HTML}{111216}      % near-black
+\definecolor{fg}{HTML}{FFFFFF}      % white
+\definecolor{muted}{HTML}{BBBBBB}
+\definecolor{accent}{HTML}{89C2FF}  % link/accent color
+\definecolor{accent2}{HTML}{7FE7C4} % second accent
+
+% --- Paths / list bullets ---
+\graphicspath{{images/}{./}}
+\renewcommand\labelitemi{-}
+
+% -------------------------
+% Conditional "sketch lanes"
+% -------------------------
+\input{conditional-styling.tex}
+
+% -------------------------
+% Dark mode toggle
+%   default: off
+%   enable via CLI: \def\darkMode{1}
+% -------------------------
+\providecommand{\darkMode}{0}
+
+% Light-mode default listings (only if dark mode is off)
+\lstset{
+  backgroundcolor=\color{white},
+  basicstyle=\ttfamily\small\color{black},
+  keywordstyle=\bfseries\color{blue},
+  commentstyle=\itshape\color{gray},
+  stringstyle=\color{teal},
+  numberstyle=\color{gray},
+  rulecolor=\color{gray},
+  frame=single,
+  framesep=8pt,
+  tabsize=2,
+  showstringspaces=false
+}
+
+% If darkMode == 1, override page + listings
+\makeatletter
+\@ifundefined{ifdefstring}{%
+  % etoolbox should already be loaded by conditionalStyling.tex
+}{}
+\makeatother
+\ifdefstring{\darkMode}{1}{\input{dark-mode.tex}}{}
 
 \providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 

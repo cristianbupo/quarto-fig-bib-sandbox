@@ -1,7 +1,7 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2025/dev/Debian)  (format=lualatex 2026.1.24)  22 FEB 2026 18:52
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2025/dev/Debian)  (format=lualatex 2026.1.24)  22 FEB 2026 19:00
  restricted system commands enabled.
  file:line:error style messages enabled.
-**\def\darkMode{1}\input{paper.tex}
+**\input{paper.tex}
 Lua module: luaotfload 2024-12-03 v3.29 Lua based OpenType font support
 Lua module: lualibs 2023-07-13 v2.76 ConTeXt Lua standard libraries.
 Lua module: lualibs-extended 2023-07-13 v2.76 ConTeXt Lua libraries -- extended collection.
@@ -1226,7 +1226,7 @@ Package: lineno 2025/01/29 line numbers on paragraphs v5.4
 \bframebox=\box80
 \@LN@amsmath@ams@eqpen=\count363
 LaTeX Info: Redefining \\ on input line 3187.
-) (./header.tex
+)
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count364
 \lst@gtempboxa=\box81
@@ -1265,7 +1265,7 @@ Package: cite 2015/02/27  v 5.5
 \CommentStream=\write4
 
 Excluding comment 'comment') Excluding comment 'draftBlock'
-Excluding comment 'aiBlock') (./dark-mode.tex))
+Excluding comment 'aiBlock')
 \@float@every@codelisting=\toks48
 \c@codelisting=\count372
 
@@ -1287,55 +1287,55 @@ File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO
 (/usr/share/texlive/texmf-dist/tex/latex/xurl/xurl.sty
 Package: xurl 2022/01/09 v 0.10 modify URL breaks
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 238.
+Package hyperref Info: Option `colorlinks' set `true' on input line 289.
  (./build/paper.aux)
 \openout1 = paper.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 244.
-LaTeX Font Info:    ... okay on input line 244.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 244.
-LaTeX Font Info:    ... okay on input line 244.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 244.
-LaTeX Font Info:    ... okay on input line 244.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 244.
-LaTeX Font Info:    ... okay on input line 244.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 244.
-LaTeX Font Info:    ... okay on input line 244.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 244.
-LaTeX Font Info:    ... okay on input line 244.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 244.
-LaTeX Font Info:    ... okay on input line 244.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 244.
-LaTeX Font Info:    ... okay on input line 244.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 244.
-LaTeX Font Info:    ... okay on input line 244.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 244.
-LaTeX Font Info:    ... okay on input line 244.
-LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 244.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 295.
+LaTeX Font Info:    ... okay on input line 295.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 295.
+LaTeX Font Info:    ... okay on input line 295.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 295.
+LaTeX Font Info:    ... okay on input line 295.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 295.
+LaTeX Font Info:    ... okay on input line 295.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 295.
+LaTeX Font Info:    ... okay on input line 295.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 295.
+LaTeX Font Info:    ... okay on input line 295.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 295.
+LaTeX Font Info:    ... okay on input line 295.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 295.
+LaTeX Font Info:    ... okay on input line 295.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 295.
+LaTeX Font Info:    ... okay on input line 295.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 295.
+LaTeX Font Info:    ... okay on input line 295.
+LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 295.
 LaTeX Font Info:    Trying to load font information for MDA+cmr on input line 2
-44.
+95.
 
 (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdacmr.fd
 File: mdacmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 244.
-LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 244.
+LaTeX Font Info:    ... okay on input line 295.
+LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 295.
 LaTeX Font Info:    Trying to load font information for MDB+cmr on input line 2
-44.
+95.
 
 (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbcmr.fd
 File: mdbcmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 244.
-Package scrbase Info: activating english \abstractname on input line 244.
-Package scrbase Info: activating english \partname on input line 244.
-Package scrbase Info: activating english \figurename on input line 244.
-Package scrbase Info: activating english \tablename on input line 244.
-Package scrbase Info: activating english \contentsname on input line 244.
-Package scrbase Info: activating english \listfigurename on input line 244.
-Package scrbase Info: activating english \listtablename on input line 244.
-Package scrbase Info: activating english \refname on input line 244.
-Package scrbase Info: activating english \indexname on input line 244.
+LaTeX Font Info:    ... okay on input line 295.
+Package scrbase Info: activating english \abstractname on input line 295.
+Package scrbase Info: activating english \partname on input line 295.
+Package scrbase Info: activating english \figurename on input line 295.
+Package scrbase Info: activating english \tablename on input line 295.
+Package scrbase Info: activating english \contentsname on input line 295.
+Package scrbase Info: activating english \listfigurename on input line 295.
+Package scrbase Info: activating english \listtablename on input line 295.
+Package scrbase Info: activating english \refname on input line 295.
+Package scrbase Info: activating english \indexname on input line 295.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1360,19 +1360,19 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OML/mdbch/m/n --> TU/mdbch/m/n on input line 244.
+(Font)                  OML/mdbch/m/n --> TU/mdbch/m/n on input line 295.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  TU/mdbch/m/it --> TU/mdbch/m/it on input line 244.
+(Font)                  TU/mdbch/m/it --> TU/mdbch/m/it on input line 295.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  TU/mdbch/b/n --> TU/mdbch/b/n on input line 244.
+(Font)                  TU/mdbch/b/n --> TU/mdbch/b/n on input line 295.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  TU/lmss/m/n --> TU/lmss/m/n on input line 244.
+(Font)                  TU/lmss/m/n --> TU/lmss/m/n on input line 295.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  TU/lmss/b/n --> TU/lmss/b/n on input line 244.
+(Font)                  TU/lmss/b/n --> TU/lmss/b/n on input line 295.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  TU/lmtt/m/n --> TU/lmtt/m/n on input line 244.
+(Font)                  TU/lmtt/m/n --> TU/lmtt/m/n on input line 295.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  TU/lmtt/b/n --> TU/lmtt/b/n on input line 244.
+(Font)                  TU/lmtt/b/n --> TU/lmtt/b/n on input line 295.
 
 Package fontspec Info: 
 (fontspec)             latinmodern-math scale = 1.071371991141143.
@@ -1404,17 +1404,17 @@ e;script=math;language=dflt;mathfontdimen=xetex;"
 e;script=math;language=dflt;mathfontdimen=xetex;"
 
 LaTeX Font Info:    Trying to load font information for T1+latinmodern-math.otf
-(0) on input line 244.
-LaTeX Font Info:    No file T1latinmodern-math.otf(0).fd. on input line 244.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 24
-4.
+(0) on input line 295.
+LaTeX Font Info:    No file T1latinmodern-math.otf(0).fd. on input line 295.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 29
+5.
 
 (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 
 LaTeX Font Warning: Font shape `T1/latinmodern-math.otf(0)/m/n' undefined
-(Font)              using `T1/lmr/m/n' instead on input line 244.
+(Font)              using `T1/lmr/m/n' instead on input line 295.
 
 luaotfload | aux : no font with id -1
 
@@ -1469,114 +1469,114 @@ anguage=dflt;mathfontdimen=xetex;+ssty=1;"
 e;script=math;language=dflt;mathfontdimen=xetex;"
 
 LaTeX Font Info:    Trying to load font information for T1+latinmodern-math.otf
-(1) on input line 244.
-LaTeX Font Info:    No file T1latinmodern-math.otf(1).fd. on input line 244.
+(1) on input line 295.
+LaTeX Font Info:    No file T1latinmodern-math.otf(1).fd. on input line 295.
 
 LaTeX Font Warning: Font shape `T1/latinmodern-math.otf(1)/m/n' undefined
-(Font)              using `T1/lmr/m/n' instead on input line 244.
+(Font)              using `T1/lmr/m/n' instead on input line 295.
 
 LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 244.
+(Font)              `operators' in the math version `normal' on input line 295.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/mdbch/m/n --> T1/latinmodern-math.otf(1)/m/n on inp
-ut line 244.
+ut line 295.
 LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 244.
+(Font)              `operators' in the math version `bold' on input line 295.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/mdbch/b/n --> T1/latinmodern-math.otf(1)/b/n on inp
-ut line 244.
+ut line 295.
 LaTeX Font Info:    Trying to load font information for OML+mdbch on input line
- 244.
+ 295.
 (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/omlmdbch.fd
 File: omlmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OML/mdbch.
 )
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 10.51207pt on input line 244.
+(Font)              scaled to size 10.51207pt on input line 295.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 7.68005pt on input line 244.
+(Font)              scaled to size 7.68005pt on input line 295.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 5.76004pt on input line 244.
+(Font)              scaled to size 5.76004pt on input line 295.
 LaTeX Font Info:    Trying to load font information for OMS+mdbch on input line
- 244.
+ 295.
 
 (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/omsmdbch.fd
 File: omsmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMS/mdbch.
 )
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 244.
+(Font)              scaled to size 10.51207pt on input line 295.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 244.
+(Font)              scaled to size 7.68005pt on input line 295.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 244.
+(Font)              scaled to size 5.76004pt on input line 295.
 LaTeX Font Info:    Trying to load font information for OMX+mdbch on input line
- 244.
+ 295.
 
 (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/omxmdbch.fd
 File: omxmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMX/mdbch.
 )
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 244.
+(Font)              scaled to size 10.51207pt on input line 295.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 244.
+(Font)              scaled to size 7.68005pt on input line 295.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 244.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 244
+(Font)              scaled to size 5.76004pt on input line 295.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 295
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 244
+LaTeX Font Info:    Trying to load font information for U+msb on input line 295
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 244.
+(Font)              scaled to size 10.51207pt on input line 295.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 244.
+(Font)              scaled to size 7.68005pt on input line 295.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 244.
+(Font)              scaled to size 5.76004pt on input line 295.
 LaTeX Font Info:    Trying to load font information for MDA+mdbch on input line
- 244.
+ 295.
 
 (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/mdamdbch.fd
 File: mdamdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdbch.
 )
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 244.
+(Font)              scaled to size 10.51207pt on input line 295.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 244.
+(Font)              scaled to size 7.68005pt on input line 295.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 244.
+(Font)              scaled to size 5.76004pt on input line 295.
 LaTeX Font Info:    Trying to load font information for MDB+mdbch on input line
- 244.
+ 295.
 
 (/usr/share/texlive/texmf-dist/tex/latex/mathdesign/mdbch/mdbmdbch.fd
 File: mdbmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDB/mdbch.
 )
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 10.51207pt on input line 244.
+(Font)              scaled to size 10.51207pt on input line 295.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 7.68005pt on input line 244.
+(Font)              scaled to size 7.68005pt on input line 295.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 244.
-LaTeX Info: Redefining \microtypecontext on input line 244.
-Package microtype Info: Applying patch `item' on input line 244.
-Package microtype Info: Applying patch `toc' on input line 244.
-Package microtype Info: Applying patch `eqnum' on input line 244.
-Package microtype Info: Applying patch `footnote' on input line 244.
-Package microtype Info: Applying patch `verbatim' on input line 244.
-LaTeX Info: Redefining \microtypesetup on input line 244.
+(Font)              scaled to size 5.76004pt on input line 295.
+LaTeX Info: Redefining \microtypecontext on input line 295.
+Package microtype Info: Applying patch `item' on input line 295.
+Package microtype Info: Applying patch `toc' on input line 295.
+Package microtype Info: Applying patch `eqnum' on input line 295.
+Package microtype Info: Applying patch `footnote' on input line 295.
+Package microtype Info: Applying patch `verbatim' on input line 295.
+LaTeX Info: Redefining \microtypesetup on input line 295.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 244.
+LaTeX Info: Redefining \showhyphens on input line 295.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of spacing.
 Package microtype Info: No adjustment of kerning.
@@ -1623,21 +1623,21 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 244.
+Package hyperref Info: Link coloring ON on input line 295.
 
 Package mathdesign/mdbch Warning: Package 'amssymb' shouldn't be used in conjon
-ction with package mdbch, on input line 244.
+ction with package mdbch, on input line 295.
 
 
 Package mathdesign/mdbch Warning: Package 'amsfonts' shouldn't be used in conjo
-nction with package mdbch, on input line 244.
+nction with package mdbch, on input line 295.
 
 \c@lstlisting=\count382
 Package tocbasic Info: omitting babel extension for `lol'
-(tocbasic)             because of missing \bbl@set@language on input line 244.
+(tocbasic)             because of missing \bbl@set@language on input line 295.
 \scr@dte@lstlisting@maxnumwidth=\skip85
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 2
-45.
+96.
 (/usr/share/texmf/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1646,40 +1646,40 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <10.95> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 245.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 296.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <20.74> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 245.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 296.
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 13.82408pt on input line 245.
+(Font)              scaled to size 13.82408pt on input line 296.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 13.82408pt on input line 245.
+(Font)              scaled to size 13.82408pt on input line 296.
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 9.60007pt on input line 245.
+(Font)              scaled to size 9.60007pt on input line 296.
 
 
 Package microtype Warning: I cannot find a protrusion list for font
 (microtype)                `OML/mdbch/m/it/10'. Switching off
-(microtype)                protrusion for this font on input line 245.
+(microtype)                protrusion for this font on input line 296.
 
 LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
-(Font)              scaled to size 6.72005pt on input line 245.
+(Font)              scaled to size 6.72005pt on input line 296.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 13.82408pt on input line 245.
+(Font)              scaled to size 13.82408pt on input line 296.
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 9.60007pt on input line 245.
+(Font)              scaled to size 9.60007pt on input line 296.
 
 Package microtype Warning: I cannot find a protrusion list for font
 (microtype)                `OMS/mdbch/m/n/10'. Switching off
-(microtype)                protrusion for this font on input line 245.
+(microtype)                protrusion for this font on input line 296.
 
 LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
-(Font)              scaled to size 6.72005pt on input line 245.
+(Font)              scaled to size 6.72005pt on input line 296.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 13.82408pt on input line 245.
+(Font)              scaled to size 13.82408pt on input line 296.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 9.60007pt on input line 245.
+(Font)              scaled to size 9.60007pt on input line 296.
 LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
-(Font)              scaled to size 6.72005pt on input line 245.
+(Font)              scaled to size 6.72005pt on input line 296.
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
@@ -1687,40 +1687,40 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 13.82408pt on input line 245.
+(Font)              scaled to size 13.82408pt on input line 296.
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 9.60007pt on input line 245.
+(Font)              scaled to size 9.60007pt on input line 296.
 
 
 Package microtype Warning: I cannot find a protrusion list for font
 (microtype)                `OML/mdbch/m/n/10'. Switching off
-(microtype)                protrusion for this font on input line 245.
+(microtype)                protrusion for this font on input line 296.
 
 LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
-(Font)              scaled to size 6.72005pt on input line 245.
+(Font)              scaled to size 6.72005pt on input line 296.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 13.82408pt on input line 245.
+(Font)              scaled to size 13.82408pt on input line 296.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 9.60007pt on input line 245.
+(Font)              scaled to size 9.60007pt on input line 296.
 LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
-(Font)              scaled to size 6.72005pt on input line 245.
+(Font)              scaled to size 6.72005pt on input line 296.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 13.82408pt on input line 245.
+(Font)              scaled to size 13.82408pt on input line 296.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 9.60007pt on input line 245.
+(Font)              scaled to size 9.60007pt on input line 296.
 LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
-(Font)              scaled to size 6.72005pt on input line 245.
+(Font)              scaled to size 6.72005pt on input line 296.
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 9.60007pt on input line 245.
+(Font)              scaled to size 9.60007pt on input line 296.
 LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <12> not available
-(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 250.
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 301.
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 11.52008pt on input line 250.
+(Font)              scaled to size 11.52008pt on input line 301.
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
-(Font)              scaled to size 5.76004pt on input line 250.
+(Font)              scaled to size 5.76004pt on input line 301.
 Excluding 'aiBlock' comment. Excluding 'draftBlock' comment.
 LaTeX Font Info:    Font shape `T1/mdbch/m/it' will be
-(Font)              scaled to size 10.51207pt on input line 300.
+(Font)              scaled to size 10.51207pt on input line 351.
 
 
 [1
@@ -1743,23 +1743,23 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 )
 
 Here is how much of LuaTeX's memory you used:
- 38783 strings out of 475512
+ 38767 strings out of 475512
  156265,1648299 words of node,token memory allocated
  600 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 9 attribute, 71 glue_spec,
  9 attribute_list, 2 write, 1 pdf_action nodes
-   avail lists: 1:6,2:1266,3:660,4:410,5:318,6:101,7:14783,8:3,9:891,10:14,11:12
+   avail lists: 1:4,2:1255,3:660,4:401,5:315,6:101,7:14780,8:2,9:882,10:14,11:12
 48,12:1
- 60739 multiletter control sequences out of 65536+600000
- 139 fonts using 11194471 bytes
- 112i,7n,116p,10942b,958s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 60733 multiletter control sequences out of 65536+600000
+ 139 fonts using 11194491 bytes
+ 112i,7n,116p,10926b,958s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/ly1/texnansi.enc}{/usr/share/texm
 f/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texlive/texmf-dist/fonts/type1/bitstr
 ea/charter/bchr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/bitstrea/charte
 r/bchri8a.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/texm
 f/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/mathdesign/mdbch/md-chr8t.pfb>
-Output written on paper.pdf (2 pages, 81797 bytes).
+Output written on paper.pdf (2 pages, 81676 bytes).
 
 PDF statistics: 86 PDF objects out of 1000 (max. 8388607)
  76 compressed objects within 1 object stream
