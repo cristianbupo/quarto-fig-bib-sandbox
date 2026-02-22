@@ -1,0 +1,28 @@
+% -------------------------
+% Dark mode styling
+% Enable from CLI with:
+%   pdflatex "\def\darkMode{1}\input{paper.tex}"
+% -------------------------
+
+% Softer draft color for dark mode (light brown / tan)
+\definecolor{draftColor}{HTML}{C8A06A}
+
+% Background override for dark theme
+\definecolor{bg}{HTML}{212121}
+
+\pagecolor{bg}
+\color{fg}
+
+\lstset{
+  backgroundcolor=\color{bg},
+  basicstyle=\ttfamily\small\color{fg},
+  keywordstyle=\bfseries\color{accent},
+  commentstyle=\itshape\color{muted},
+  stringstyle=\color{accent2},
+  numberstyle=\color{muted},
+  rulecolor=\color{muted},
+  frame=single,
+  framesep=8pt,
+  tabsize=2,
+  showstringspaces=false
+}

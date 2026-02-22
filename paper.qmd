@@ -1,0 +1,28 @@
+---
+title: "Quarto Grid Challenge"
+format:
+  latex:
+    standalone: true
+    include-in-header:
+      - file: preamble.tex
+bibliography: bibliography.bib
+---
+```{=latex}
+\linenumbers
+```
+## Introduction  
+Long bones develop through the process of Endochondral Ossification (EO)  [@kronenbergDevelopmentalRegulationGrowth2003; @aghajanianArtBuildingBone2018; @nguyenImagingPediatricGrowth2017]. This process starts with the condensation of mesenchymal cells, continuing with intricate processes of differentiation, proliferation, hypertrophy, apoptosis and matrix modification [@kronenbergDevelopmentalRegulationGrowth2003; @aghajanianArtBuildingBone2018; @nguyenImagingPediatricGrowth2017]. During this transformation, hyaline cartilage is replaced by bone, developing primary (POC) and secondary (SOC) ossification centers; the former allows longitudinal development, while the latter promotes epiphysis formation. This progression is modulated by multiple factors, including cellular, biochemical, and mechanical effects [@carterRoleMechanicalLoading1988; @sundaramurthyModulationEndochondralDevelopment2006]. Disturbances on this growth mechanism can cause different pathologies in children and teenagers; therefore, understanding this process is crucial to explain, prevent and treat these disorders [@comellasRoleComputationalModels2022; @ogdenDiagnosticImaging2000]. For this reason, several mathematical and computational models have been proposed to simulate EO and SOC emergence. Early works suggested that cyclical mechanical stimuli could influence ossification, allowing the prediction on location of SOCs [@carterRoleMechanicalLoading1988].  
+  
+Additionally, other factors have been considered, e.g., bone remodelling [@wongTheoreticalModelEndochondral1990; @stevensComputerModelEndochondral1999], biochemical feedback loops and cellular mechanisms [@garzon-alvaradoReactiondiffusionModelLong2009; @garzon-alvaradoAppearanceLocationSecondary2009; @stoopTimingRestingZone2025], or a combination of these elements  
+[@peinadocortesMechanobiologicalModelEpiphysis2011; @vaca-gonzalezMechanobiologicalModelingEndochondral2018; @carrera-pinzonComputationalModelSynovial2020; @sadeghianComputationalModelEndochondral2021]. Given that multiple SOCs can appear on a single epiphysis [@ogdenDiagnosticImaging2000], studies based on reaction-diffusion modeling have been conducted to analyze the influence of epiphyseal size on the number of SOCs [@garzon-alvaradoCanSizeEpiphysis2011]. However, previous models have mostly focused on the emergence of a single SOC, overlooking multiple SOCs presence on the epiphysis, as observed in the humerus, tibia, femur, and other bones. Therefore, this study builds on previous work that predicted SOC locations based primarily on geometric and mechanical factors [@bustamante-porrasModelingEndochondralOssification2025] by incorporating biochemical influences.  It aims to explore how geometry, mechanics, and biochemical conditions interact to govern SOC formation, including double-center ossification cases.
+
+
+```{=latex}
+\begin{aiBlock}
+AIIIIII AAA
+\end{aiBlock}
+\begin{draftBlock}
+better?
+\end{draftBlock}
+
+```

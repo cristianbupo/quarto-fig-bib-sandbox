@@ -1,0 +1,84 @@
+% -------------------------
+% Conditional "lanes": final / draft / all (AI)
+% Usage:
+%   \draft{...} \draftNoTag{...} \begin{draftBlock}...\end{draftBlock}
+%   \ai{...}    \aiNoTag{...}    \begin{aiBlock}...\end{aiBlock}
+%
+% Set mode from CLI (examples):
+%   pdflatex "\def\docMode{final}\input{paper.tex}"
+%   pdflatex "\def\docMode{draft}\input{paper.tex}"
+%   pdflatex "\def\docMode{all}\input{paper.tex}"
+% -------------------------
+
+\usepackage{etoolbox}
+\usepackage{comment}
+
+% Can be overridden from command line:
+%   \def\docMode{final} or draft or all
+\providecommand{\docMode}{final}
+
+\definecolor{aiColor}{HTML}{1F77B4}
+\definecolor{draftColor}{HTML}{D62728}
+
+% Helper: execute #2 if docMode == #1, else execute #3
+\newcommand{\ifDocMode}[3]{%
+  \ifdefstring{\docMode}{#1}{#2}{#3}%
+}
+
+% -------------------------
+% Tags (customize once)
+% -------------------------
+\newcommand{\draftTagText}{DRAFT}
+\newcommand{\aiTagText}{AI}
+
+\newcommand{\draftTag}{\textbf{[\draftTagText]}\par}
+\newcommand{\aiTag}{\textbf{[\aiTagText]}\par}
+
+% -------------------------
+% Inline lanes
+% -------------------------
+\newcommand{\final}[1]{#1}
+
+\newcommand{\draft}[1]{%
+  \ifDocMode{final}{}{%
+    \ifDocMode{draft}{\begingroup\color{draftColor}\noindent\draftTag\noindent #1\par\endgroup}{%
+      \ifDocMode{all}{\begingroup\color{draftColor}\noindent\draftTag\noindent #1\par\endgroup}{}%
+    }%
+  }%
+}
+
+\newcommand{\draftNoTag}[1]{%
+  \ifDocMode{final}{}{%
+    \ifDocMode{draft}{\begingroup\color{draftColor}#1\par\endgroup}{%
+      \ifDocMode{all}{\begingroup\color{draftColor}#1\par\endgroup}{}%
+    }%
+  }%
+}
+
+\newcommand{\ai}[1]{%
+  \ifDocMode{all}{\begingroup\color{aiColor}\noindent\aiTag\noindent #1\par\endgroup}{}%
+}
+
+\newcommand{\aiNoTag}[1]{%
+  \ifDocMode{all}{\begingroup\color{aiColor}#1\par\endgroup}{}%
+}
+
+% -------------------------
+% Big block environments
+% -------------------------
+\ifDocMode{final}{
+  \excludecomment{draftBlock}
+  \excludecomment{aiBlock}
+}{
+  \newenvironment{draftBlock}
+    {\par\begingroup\color{draftColor}\noindent\draftTag\noindent}
+    {\par\endgroup}
+
+  \ifDocMode{draft}{
+    \excludecomment{aiBlock}
+  }{
+    \newenvironment{aiBlock}
+      {\par\begingroup\color{aiColor}\noindent\aiTag\noindent}
+      {\par\endgroup}
+  }
+}
