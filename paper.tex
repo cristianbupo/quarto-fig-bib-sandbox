@@ -250,44 +250,36 @@
 \subsection{Introduction}\label{introduction}
 
 Long bones develop through the process of Endochondral Ossification (EO)
-(Kronenberg 2003; Aghajanian and Mohan 2018; Nguyen et al. 2017). This
-process starts with the condensation of mesenchymal cells, continuing
-with intricate processes of differentiation, proliferation, hypertrophy,
-apoptosis and matrix modification (Kronenberg 2003; Aghajanian and Mohan
-2018; Nguyen et al. 2017). During this transformation, hyaline cartilage
-is replaced by bone, developing primary (POC) and secondary (SOC)
-ossification centers; the former allows longitudinal development, while
-the latter promotes epiphysis formation. This progression is modulated
-by multiple factors, including cellular, biochemical, and mechanical
-effects (Carter and Wong 1988; Sundaramurthy and Mao 2006). Disturbances
-on this growth mechanism can cause different pathologies in children and
+{[}1{]}, {[}2{]}, {[}3{]}. This process starts with the condensation of
+mesenchymal cells, continuing with intricate processes of
+differentiation, proliferation, hypertrophy, apoptosis and matrix
+modification {[}1{]}, {[}2{]}, {[}3{]}. During this transformation,
+hyaline cartilage is replaced by bone, developing primary (POC) and
+secondary (SOC) ossification centers; the former allows longitudinal
+development, while the latter promotes epiphysis formation. This
+progression is modulated by multiple factors, including cellular,
+biochemical, and mechanical effects {[}4{]}, {[}5{]}. Disturbances on
+this growth mechanism can cause different pathologies in children and
 teenagers; therefore, understanding this process is crucial to explain,
-prevent and treat these disorders (Comellas and Shefelbine 2022; Ogden,
-Hensinger, and McCollough 2000). For this reason, several mathematical
-and computational models have been proposed to simulate EO and SOC
-emergence. Early works suggested that cyclical mechanical stimuli could
-influence ossification, allowing the prediction on location of SOCs
-(Carter and Wong 1988).
+prevent and treat these disorders {[}6{]}, {[}7{]}. For this reason,
+several mathematical and computational models have been proposed to
+simulate EO and SOC emergence. Early works suggested that cyclical
+mechanical stimuli could influence ossification, allowing the prediction
+on location of SOCs {[}4{]}.
 
 Additionally, other factors have been considered, e.g., bone remodelling
-(Wong and Carter 1990; Stevens, Beaupré, and Carter 1999), biochemical
-feedback loops and cellular mechanisms (D. A. Garzón-Alvarado,
-García-Aznar, and Doblaré 2009; Diego Alexander Garzón-Alvarado,
-Garcı́a-Aznar, and Doblaré 2009; Stoop, Yokoyama, and Adachi 2025), or a
-combination of these elements\\
-(Peinado Cortés, Vanegas Acosta, and Garzón Alvarado 2011; Vaca-González
-et al. 2018; Carrera-Pinzón et al. 2020; Sadeghian, Shapiro, and
-Shefelbine 2021). Given that multiple SOCs can appear on a single
-epiphysis (Ogden, Hensinger, and McCollough 2000), studies based on
+{[}8{]}, {[}9{]}, biochemical feedback loops and cellular mechanisms
+{[}10{]}, {[}11{]}, {[}12{]}, or a combination of these elements\\
+{[}13{]}, {[}14{]}, {[}15{]}, {[}16{]}. Given that multiple SOCs can
+appear on a single epiphysis {[}7{]}, studies based on
 reaction-diffusion modeling have been conducted to analyze the influence
-of epiphyseal size on the number of SOCs (Diego Alexander
-Garzón-Alvarado 2011). However, previous models have mostly focused on
-the emergence of a single SOC, overlooking multiple SOCs presence on the
-epiphysis, as observed in the humerus, tibia, femur, and other bones.
-Therefore, this study builds on previous work that predicted SOC
-locations based primarily on geometric and mechanical factors
-(Bustamante-Porras et al. 2025) by incorporating biochemical influences.
-It aims to explore how geometry, mechanics, and biochemical conditions
+of epiphyseal size on the number of SOCs {[}17{]}. However, previous
+models have mostly focused on the emergence of a single SOC, overlooking
+multiple SOCs presence on the epiphysis, as observed in the humerus,
+tibia, femur, and other bones. Therefore, this study builds on previous
+work that predicted SOC locations based primarily on geometric and
+mechanical factors {[}18{]} by incorporating biochemical influences. It
+aims to explore how geometry, mechanics, and biochemical conditions
 interact to govern SOC formation, including double-center ossification
 cases.
 
@@ -299,120 +291,146 @@ better?
 \end{draftBlock}
 
 \phantomsection\label{refs}
-\begin{CSLReferences}{1}{0}
-\bibitem[\citeproctext]{ref-aghajanianArtBuildingBone2018}
-Aghajanian, Patrick, and Subburaman Mohan. 2018. {``The Art of Building
-Bone: Emerging Role of Chondrocyte-to-Osteoblast Transdifferentiation in
-Endochondral Ossification.''} \emph{Bone Research} 6 (1): 19.
-\url{https://doi.org/10.1038/s41413-018-0021-z}.
-
-\bibitem[\citeproctext]{ref-bustamante-porrasModelingEndochondralOssification2025}
-Bustamante-Porras, Cristian Rodrigo, Kalenia Marquez-Florez, Carlos
-Alberto Duque-Daza, and Diego Alexander Garzón-Alvarado. 2025.
-{``Modeling Endochondral Ossification: {Effects} of Mechanical Loading
-and Bone Shape.''} \emph{Journal of Orthopaedics} 68 (October):
-197--218. \url{https://doi.org/10.1016/j.jor.2025.05.034}.
-
-\bibitem[\citeproctext]{ref-carrera-pinzonComputationalModelSynovial2020}
-Carrera-Pinzón, Andrés Felipe, Kalenia Márquez-Flórez, Reuben H. Kraft,
-Salah Ramtani, and Diego Alexander Garzón-Alvarado. 2020.
-{``Computational Model of a Synovial Joint Morphogenesis.''}
-\emph{Biomechanics and Modeling in Mechanobiology} 19 (5): 1389--1402.
-\url{https://doi.org/10.1007/s10237-019-01277-4}.
-
-\bibitem[\citeproctext]{ref-carterRoleMechanicalLoading1988}
-Carter, Dennis R., and Marcy Wong. 1988. {``The Role of Mechanical
-Loading Histories in the Development of Diarthrodial Joints.''}
-\emph{Journal of Orthopaedic Research} 6 (6): 804--16.
-\url{https://doi.org/10.1002/jor.1100060604}.
-
-\bibitem[\citeproctext]{ref-comellasRoleComputationalModels2022}
-Comellas, Ester, and Sandra J. Shefelbine. 2022. {``The Role of
-Computational Models in Mechanobiology of Growing Bone.''}
-\emph{Frontiers in Bioengineering and Biotechnology} 10.
-\url{https://doi.org/10.3389/fbioe.2022.973788}.
-
-\bibitem[\citeproctext]{ref-garzon-alvaradoReactiondiffusionModelLong2009}
-Garzón-Alvarado, D. A., J. M. García-Aznar, and M. Doblaré. 2009. {``A
-Reaction-Diffusion Model for Long Bones Growth.''} \emph{Biomechanics
-and Modeling in Mechanobiology} 8 (5): 381--95.
-\url{https://doi.org/10.1007/s10237-008-0144-z}.
-
-\bibitem[\citeproctext]{ref-garzon-alvaradoCanSizeEpiphysis2011}
-Garzón-Alvarado, Diego Alexander. 2011. {``Can the Size of the Epiphysis
-Determine the Number of Secondary Ossification Centers? {A} Mathematical
-Approach.''} \emph{Computer Methods in Biomechanics and Biomedical
-Engineering} 14 (9): 819--26.
-
-\bibitem[\citeproctext]{ref-garzon-alvaradoAppearanceLocationSecondary2009}
-Garzón-Alvarado, Diego Alexander, JM Garcı́a-Aznar, and Manuel Doblaré.
-2009. {``Appearance and Location of Secondary Ossification Centres May
-Be Explained by a Reaction--Diffusion Mechanism.''} \emph{Computers in
-Biology and Medicine} 39 (6): 554--61.
-
+\begin{CSLReferences}{0}{0}
 \bibitem[\citeproctext]{ref-kronenbergDevelopmentalRegulationGrowth2003}
-Kronenberg, Henry M. 2003. {``Developmental Regulation of the Growth
-Plate.''} \emph{Nature} 423 (6937): 332--36.
-\url{https://doi.org/10.1038/nature01657}.
+\CSLLeftMargin{{[}1{]} }%
+\CSLRightInline{H. M. Kronenberg, {``Developmental regulation of the
+growth plate.''} \emph{Nature}, vol. 423, no. 6937, pp. 332--336, May
+2003, doi:
+\href{https://doi.org/10.1038/nature01657}{10.1038/nature01657}.}
+
+\bibitem[\citeproctext]{ref-aghajanianArtBuildingBone2018}
+\CSLLeftMargin{{[}2{]} }%
+\CSLRightInline{P. Aghajanian and S. Mohan, {``The art of building bone:
+Emerging role of chondrocyte-to-osteoblast transdifferentiation in
+endochondral ossification,''} \emph{Bone Research}, vol. 6, no. 1, p.
+19, Jun. 2018, doi:
+\href{https://doi.org/10.1038/s41413-018-0021-z}{10.1038/s41413-018-0021-z}.}
 
 \bibitem[\citeproctext]{ref-nguyenImagingPediatricGrowth2017}
-Nguyen, Jie C., B. Keegan Markhardt, Arnold C. Merrow, and Jerry R.
-Dwek. 2017. {``Imaging of {Pediatric Growth Plate Disturbances}.''}
-\emph{RadioGraphics} 37 (6): 1791--1812.
-\url{https://doi.org/10.1148/rg.2017170029}.
+\CSLLeftMargin{{[}3{]} }%
+\CSLRightInline{J. C. Nguyen, B. K. Markhardt, A. C. Merrow, and J. R.
+Dwek, {``Imaging of {Pediatric Growth Plate Disturbances},''}
+\emph{RadioGraphics}, vol. 37, no. 6, pp. 1791--1812, Oct. 2017, doi:
+\href{https://doi.org/10.1148/rg.2017170029}{10.1148/rg.2017170029}.}
 
-\bibitem[\citeproctext]{ref-ogdenDiagnosticImaging2000}
-Ogden, John A., R. N. Hensinger, and N. McCollough. 2000. {``Diagnostic
-{Imaging}.''} In \emph{Skeletal Injury in the Child}, 3rd ed., 128.
-Springer.
-
-\bibitem[\citeproctext]{ref-peinadocortesMechanobiologicalModelEpiphysis2011}
-Peinado Cortés, L. M., J. C. Vanegas Acosta, and D. A. Garzón Alvarado.
-2011. {``A Mechanobiological Model of Epiphysis Structures Formation.''}
-\emph{Journal of Theoretical Biology} 287: 13--25.
-\url{https://doi.org/10.1016/j.jtbi.2011.07.011}.
-
-\bibitem[\citeproctext]{ref-sadeghianComputationalModelEndochondral2021}
-Sadeghian, S. Mahsa, Frederic D. Shapiro, and Sandra J. Shefelbine.
-2021. {``Computational Model of Endochondral Ossification: {Simulating}
-Growth of a Long Bone.''} \emph{Bone} 153: 116132.
-\url{https://doi.org/10.1016/j.bone.2021.116132}.
-
-\bibitem[\citeproctext]{ref-stevensComputerModelEndochondral1999}
-Stevens, S. S., G. S. Beaupré, and D. R. Carter. 1999. {``Computer Model
-of Endochondral Growth and Ossification in Long Bones: Biological and
-Mechanobiological Influences.''} \emph{Journal of Orthopaedic Research :
-Official Publication of the Orthopaedic Research Society} 17 (5):
-646--53. \url{https://doi.org/10.1002/jor.1100170505}.
-
-\bibitem[\citeproctext]{ref-stoopTimingRestingZone2025}
-Stoop, Jorik, Yuka Yokoyama, and Taiji Adachi. 2025. {``Timing of
-Resting Zone Parathyroid Hormone-Related Protein Expression Affects
-Maintenance of the Growth Plate During Secondary Ossification: A
-Computational Study.''} \emph{Biomechanics and Modeling in
-Mechanobiology} 24 (1): 125--37.
-\url{https://doi.org/10.1007/s10237-024-01899-3}.
+\bibitem[\citeproctext]{ref-carterRoleMechanicalLoading1988}
+\CSLLeftMargin{{[}4{]} }%
+\CSLRightInline{D. R. Carter and M. Wong, {``The role of mechanical
+loading histories in the development of diarthrodial joints,''}
+\emph{Journal of Orthopaedic Research}, vol. 6, no. 6, pp. 804--816,
+1988, doi:
+\href{https://doi.org/10.1002/jor.1100060604}{10.1002/jor.1100060604}.}
 
 \bibitem[\citeproctext]{ref-sundaramurthyModulationEndochondralDevelopment2006}
-Sundaramurthy, Sona, and Jeremy J. Mao. 2006. {``Modulation of
-Endochondral Development of the Distal Femoral Condyle by Mechanical
-Loading.''} \emph{Journal of Orthopaedic Research : Official Publication
-of the Orthopaedic Research Society} 24 (2): 229--41.
-\url{https://doi.org/10.1002/jor.20024}.
+\CSLLeftMargin{{[}5{]} }%
+\CSLRightInline{S. Sundaramurthy and J. J. Mao, {``Modulation of
+endochondral development of the distal femoral condyle by mechanical
+loading.''} \emph{Journal of orthopaedic research : official publication
+of the Orthopaedic Research Society}, vol. 24, no. 2, pp. 229--241, Feb.
+2006, doi: \href{https://doi.org/10.1002/jor.20024}{10.1002/jor.20024}.}
 
-\bibitem[\citeproctext]{ref-vaca-gonzalezMechanobiologicalModelingEndochondral2018}
-Vaca-González, Juan Jairo, Miguelangel Moncayo-Donoso, Johana Guevara,
-Yoshie Hata, Sandra J. Shefelbine, and Diego Alexander Garzón-Alvarado.
-2018. {``Mechanobiological Modeling of Endochondral Ossification: An
-Experimental and Computational Analysis.''} \emph{Biomechanics and
-Modeling in Mechanobiology} 17 (3): 853--75.
-\url{https://doi.org/10.1007/s10237-017-0997-0}.
+\bibitem[\citeproctext]{ref-comellasRoleComputationalModels2022}
+\CSLLeftMargin{{[}6{]} }%
+\CSLRightInline{E. Comellas and S. J. Shefelbine, {``The role of
+computational models in mechanobiology of growing bone,''}
+\emph{Frontiers in Bioengineering and Biotechnology}, vol. 10, 2022,
+doi:
+\href{https://doi.org/10.3389/fbioe.2022.973788}{10.3389/fbioe.2022.973788}.}
+
+\bibitem[\citeproctext]{ref-ogdenDiagnosticImaging2000}
+\CSLLeftMargin{{[}7{]} }%
+\CSLRightInline{J. A. Ogden, R. N. Hensinger, and N. McCollough,
+{``Diagnostic {Imaging},''} in \emph{Skeletal injury in the child}, 3rd
+ed., Springer, 2000, p. 128.}
 
 \bibitem[\citeproctext]{ref-wongTheoreticalModelEndochondral1990}
-Wong, M., and D. R. Carter. 1990. {``A Theoretical Model of Endochondral
-Ossification and Bone Architectural Construction in Long Bone
-Ontogeny.''} \emph{Anatomy and Embryology} 181 (6): 523--32.
-\url{https://doi.org/10.1007/BF00174625}.
+\CSLLeftMargin{{[}8{]} }%
+\CSLRightInline{M. Wong and D. R. Carter, {``A theoretical model of
+endochondral ossification and bone architectural construction in long
+bone ontogeny.''} \emph{Anatomy and embryology}, vol. 181, no. 6, pp.
+523--532, 1990, doi:
+\href{https://doi.org/10.1007/BF00174625}{10.1007/BF00174625}.}
+
+\bibitem[\citeproctext]{ref-stevensComputerModelEndochondral1999}
+\CSLLeftMargin{{[}9{]} }%
+\CSLRightInline{S. S. Stevens, G. S. Beaupré, and D. R. Carter,
+{``Computer model of endochondral growth and ossification in long bones:
+Biological and mechanobiological influences.''} \emph{Journal of
+orthopaedic research : official publication of the Orthopaedic Research
+Society}, vol. 17, no. 5, pp. 646--653, Sep. 1999, doi:
+\href{https://doi.org/10.1002/jor.1100170505}{10.1002/jor.1100170505}.}
+
+\bibitem[\citeproctext]{ref-garzon-alvaradoReactiondiffusionModelLong2009}
+\CSLLeftMargin{{[}10{]} }%
+\CSLRightInline{D. A. Garzón-Alvarado, J. M. García-Aznar, and M.
+Doblaré, {``A reaction-diffusion model for long bones growth.''}
+\emph{Biomechanics and modeling in mechanobiology}, vol. 8, no. 5, pp.
+381--395, Oct. 2009, doi:
+\href{https://doi.org/10.1007/s10237-008-0144-z}{10.1007/s10237-008-0144-z}.}
+
+\bibitem[\citeproctext]{ref-garzon-alvaradoAppearanceLocationSecondary2009}
+\CSLLeftMargin{{[}11{]} }%
+\CSLRightInline{D. A. Garzón-Alvarado, J. Garcı́a-Aznar, and M. Doblaré,
+{``Appearance and location of secondary ossification centres may be
+explained by a reaction--diffusion mechanism,''} \emph{Computers in
+biology and medicine}, vol. 39, no. 6, pp. 554--561, 2009.}
+
+\bibitem[\citeproctext]{ref-stoopTimingRestingZone2025}
+\CSLLeftMargin{{[}12{]} }%
+\CSLRightInline{J. Stoop, Y. Yokoyama, and T. Adachi, {``Timing of
+resting zone parathyroid hormone-related protein expression affects
+maintenance of the growth plate during secondary ossification: A
+computational study,''} \emph{Biomechanics and Modeling in
+Mechanobiology}, vol. 24, no. 1, pp. 125--137, Feb. 2025, doi:
+\href{https://doi.org/10.1007/s10237-024-01899-3}{10.1007/s10237-024-01899-3}.}
+
+\bibitem[\citeproctext]{ref-peinadocortesMechanobiologicalModelEpiphysis2011}
+\CSLLeftMargin{{[}13{]} }%
+\CSLRightInline{L. M. Peinado Cortés, J. C. Vanegas Acosta, and D. A.
+Garzón Alvarado, {``A mechanobiological model of epiphysis structures
+formation,''} \emph{Journal of Theoretical Biology}, vol. 287, pp.
+13--25, 2011, doi:
+\href{https://doi.org/10.1016/j.jtbi.2011.07.011}{10.1016/j.jtbi.2011.07.011}.}
+
+\bibitem[\citeproctext]{ref-vaca-gonzalezMechanobiologicalModelingEndochondral2018}
+\CSLLeftMargin{{[}14{]} }%
+\CSLRightInline{J. J. Vaca-González, M. Moncayo-Donoso, J. Guevara, Y.
+Hata, S. J. Shefelbine, and D. A. Garzón-Alvarado, {``Mechanobiological
+modeling of endochondral ossification: An experimental and computational
+analysis,''} \emph{Biomechanics and modeling in mechanobiology}, vol.
+17, no. 3, pp. 853--875, Jan. 2018, doi:
+\href{https://doi.org/10.1007/s10237-017-0997-0}{10.1007/s10237-017-0997-0}.}
+
+\bibitem[\citeproctext]{ref-carrera-pinzonComputationalModelSynovial2020}
+\CSLLeftMargin{{[}15{]} }%
+\CSLRightInline{A. F. Carrera-Pinzón, K. Márquez-Flórez, R. H. Kraft, S.
+Ramtani, and D. A. Garzón-Alvarado, {``Computational model of a synovial
+joint morphogenesis,''} \emph{Biomechanics and Modeling in
+Mechanobiology}, vol. 19, no. 5, pp. 1389--1402, Oct. 2020, doi:
+\href{https://doi.org/10.1007/s10237-019-01277-4}{10.1007/s10237-019-01277-4}.}
+
+\bibitem[\citeproctext]{ref-sadeghianComputationalModelEndochondral2021}
+\CSLLeftMargin{{[}16{]} }%
+\CSLRightInline{S. M. Sadeghian, F. D. Shapiro, and S. J. Shefelbine,
+{``Computational model of endochondral ossification: {Simulating} growth
+of a long bone,''} \emph{Bone}, vol. 153, p. 116132, 2021, doi:
+\href{https://doi.org/10.1016/j.bone.2021.116132}{10.1016/j.bone.2021.116132}.}
+
+\bibitem[\citeproctext]{ref-garzon-alvaradoCanSizeEpiphysis2011}
+\CSLLeftMargin{{[}17{]} }%
+\CSLRightInline{D. A. Garzón-Alvarado, {``Can the size of the epiphysis
+determine the number of secondary ossification centers? {A} mathematical
+approach,''} \emph{Computer Methods in Biomechanics and Biomedical
+Engineering}, vol. 14, no. 9, pp. 819--826, 2011.}
+
+\bibitem[\citeproctext]{ref-bustamante-porrasModelingEndochondralOssification2025}
+\CSLLeftMargin{{[}18{]} }%
+\CSLRightInline{C. R. Bustamante-Porras, K. Marquez-Florez, C. A.
+Duque-Daza, and D. A. Garzón-Alvarado, {``Modeling endochondral
+ossification: {Effects} of mechanical loading and bone shape,''}
+\emph{Journal of Orthopaedics}, vol. 68, pp. 197--218, Oct. 2025, doi:
+\href{https://doi.org/10.1016/j.jor.2025.05.034}{10.1016/j.jor.2025.05.034}.}
 
 \end{CSLReferences}
 
