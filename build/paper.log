@@ -1,7 +1,7 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2025/dev/Debian)  (format=lualatex 2026.1.24)  22 FEB 2026 19:03
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2025/dev/Debian)  (format=lualatex 2026.1.24)  22 FEB 2026 19:17
  restricted system commands enabled.
  file:line:error style messages enabled.
-**\def\darkMode{1}\input{paper.tex}
+**\def\docMode{all}\input{paper.tex}
 Lua module: luaotfload 2024-12-03 v3.29 Lua based OpenType font support
 Lua module: lualibs 2023-07-13 v2.76 ConTeXt Lua standard libraries.
 Lua module: lualibs-extended 2023-07-13 v2.76 ConTeXt Lua libraries -- extended collection.
@@ -1264,8 +1264,7 @@ Package: cite 2015/02/27  v 5.5
 (/usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write4
 
-Excluding comment 'comment') Excluding comment 'draftBlock'
-Excluding comment 'aiBlock') (./dark-mode.tex)
+Excluding comment 'comment'))
 \@float@every@codelisting=\toks48
 \c@codelisting=\count372
 
@@ -1718,9 +1717,15 @@ LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
 (Font)              scaled to size 11.52008pt on input line 301.
 LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
 (Font)              scaled to size 5.76004pt on input line 301.
-Excluding 'aiBlock' comment. Excluding 'draftBlock' comment.
-LaTeX Font Info:    Font shape `T1/mdbch/m/it' will be
-(Font)              scaled to size 10.51207pt on input line 351.
+LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
+(Font)              scaled to size 10.51207pt on input line 337.
+LaTeX Font Info:    Font shape `T1/lmss/b/n' in size <14.4> not available
+(Font)              Font shape `T1/lmss/bx/n' tried instead on input line 339.
+<images/diagram.jpg, id=8, 154.69164pt x 143.33147pt>
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 353.
+(luatex.def)             Requested size: 390.179pt x 361.52522pt.
 
 
 [1
@@ -1728,7 +1733,354 @@ LaTeX Font Info:    Font shape `T1/mdbch/m/it' will be
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 
-[2
+Package microtype Warning: I cannot find a protrusion list for font
+(microtype)                `OML/mdbch/m/it/10.95'. Switching off
+(microtype)                protrusion for this font on input line 374.
+
+
+Package microtype Warning: I cannot find a protrusion list for font
+(microtype)                `OMS/mdbch/m/n/10.95'. Switching off
+(microtype)                protrusion for this font on input line 374.
+
+
+Package microtype Warning: I cannot find a protrusion list for font
+(microtype)                `OML/mdbch/m/n/10.95'. Switching off
+(microtype)                protrusion for this font on input line 374.
+
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 375.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 375.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 375.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 375.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 375.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 375.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 375.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 375.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 375.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 376.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 376.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 376.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 376.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 376.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 376.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 376.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 376.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 376.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 377.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 377.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 377.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 377.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 377.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 377.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 377.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 377.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 377.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 378.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 378.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 378.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 378.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 378.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 378.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 378.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 378.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 378.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 379.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 379.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 379.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 379.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 379.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 379.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 379.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 379.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 379.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 380.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 380.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 380.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 380.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 380.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 380.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 380.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 380.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 380.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 381.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 381.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 381.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 381.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 381.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 381.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 381.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 381.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 381.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 382.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 382.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 382.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 382.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 382.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 382.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 382.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 382.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 382.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 383.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 383.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 383.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 383.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 383.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 383.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 383.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 383.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+File: images/diagram.jpg Graphic file (type jpg)
+<use images/diagram.jpg>
+Package luatex.def Info: images/diagram.jpg  used on input line 383.
+(luatex.def)             Requested size: 50.16301pt x 46.47937pt.
+
+
+[2<./images/diagram.jpg>]
+LaTeX Font Info:    Font shape `T1/mdbch/m/it' will be
+(Font)              scaled to size 10.51207pt on input line 399.
+
+
+[3]
+
+[4
 Missing character: There is no ı (U+0131) in font mdbchr8t!
 Missing character: There is no ́ (U+0301) in font mdbchr8t!
 ] (./build/paper.aux)
@@ -1743,26 +2095,28 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 )
 
 Here is how much of LuaTeX's memory you used:
- 38775 strings out of 475512
- 156265,1648299 words of node,token memory allocated
+ 39085 strings out of 475512
+ 100000,1648299 words of node,token memory allocated
  600 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 9 attribute, 71 glue_spec,
  9 attribute_list, 2 write, 1 pdf_action nodes
-   avail lists: 1:6,2:1325,3:681,4:426,5:337,6:111,7:15831,8:2,9:948,10:14,11:13
-20,12:1
- 60736 multiletter control sequences out of 65536+600000
- 139 fonts using 11194479 bytes
- 112i,7n,116p,10942b,958s stack positions out of 10000i,1000n,20000p,200000b,200000s
+   avail lists: 1:3,2:1826,3:667,4:289,5:283,6:74,7:8705,8:2,9:1718,10:14,11:832
+,12:1
+ 60794 multiletter control sequences out of 65536+600000
+ 143 fonts using 11483191 bytes
+ 112i,12n,116p,10943b,958s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/ly1/texnansi.enc}{/usr/share/texm
 f/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texlive/texmf-dist/fonts/type1/bitstr
-ea/charter/bchr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/bitstrea/charte
-r/bchri8a.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/texm
-f/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/mathdesign/mdbch/md-chr8t.pfb>
-Output written on paper.pdf (2 pages, 81763 bytes).
+ea/charter/bchb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/bitstrea/charte
+r/bchr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/bitstrea/charter/bchri8a
+.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/t
+ype1/public/lm/lmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ma
+thdesign/mdbch/md-chb8t.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ma
+thdesign/mdbch/md-chr8t.pfb>
+Output written on paper.pdf (4 pages, 147505 bytes).
 
-PDF statistics: 86 PDF objects out of 1000 (max. 8388607)
- 76 compressed objects within 1 object stream
- 24 named destinations out of 1000 (max. 131072)
- 24 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 120 PDF objects out of 1000 (max. 8388607)
+ 104 compressed objects within 2 object streams
+ 32 named destinations out of 1000 (max. 131072)
+ 40 words of extra memory for PDF output out of 10000 (max. 100000000)
 

@@ -19,10 +19,44 @@ Additionally, other factors have been considered, e.g., bone remodelling [@wongT
 
 ```{=latex}
 \begin{aiBlock}
-AIIIIII AAA
-\end{aiBlock}
-\begin{draftBlock}
-better?
-\end{draftBlock}
-
 ```
+
+# AIIIIII AAA
+
+```{=latex}
+\end{aiBlock}
+```
+
+```{=latex}
+\begin{draftBlock}
+```
+## better? really???
+```{=latex}
+\end{draftBlock}
+```
+
+![Growth plate schematic](images/diagram.jpg){#fig-growth width=70% fig-pos="H"}
+
+See @fig-growth.
+
+See @fig-grid and [@bustamante-porrasModelingEndochondralOssification2025].
+
+::: {#fig-grid fig-pos="H"}
+
+```{=latex}
+\centering
+\setlength{\tabcolsep}{1pt}
+\renewcommand{\arraystretch}{1}
+\newcommand{\tile}{\includegraphics[width=0.09\linewidth]{images/diagram.jpg}}
+
+\begin{tabular}{@{}*{9}{c}@{}}
+\tile & \tile & \tile & \tile & \tile & \tile & \tile & \tile & \tile \\
+\tile & \tile & \tile & \tile & \tile & \tile & \tile & \tile & \tile \\
+\tile & \tile & \tile & \tile & \tile & \tile & \tile & \tile & \tile \\
+\tile & \tile & \tile & \tile & \tile & \tile & \tile & \tile & \tile \\
+\tile & \tile & \tile & \tile & \tile & \tile & \tile & \tile & \tile \\
+\tile & \tile & \tile & \tile & \tile & \tile & \tile & \tile & \tile \\
+\tile & \tile & \tile & \tile & \tile & \tile & \tile & \tile & \tile \\
+\tile & \tile & \tile & \tile & \tile & \tile & \tile & \tile & \tile \\
+\tile & \tile & \tile & \tile & \tile & \tile & \tile & \tile & \tile \\
+\end{tabular}
